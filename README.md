@@ -1,12 +1,58 @@
-# React + Vite
+# Online Voting Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An online voting platform built with **React**, **Redux Toolkit**, and **Firebase** that allows users to register, complete their profile, view elections, and cast votes securely.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+This platform enables users to participate in elections online. Users can register, complete their profile, view available elections, and vote for candidates. The platform ensures that each user can vote only once per election. Admin-level features can be added in the future for managing elections.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- **User Registration & Login** with Firebase Authentication
+- **Profile Creation** with name, age, address, and voter ID
+- **Dashboard** displaying user information and available elections
+- **Vote Casting** with candidate selection
+- **Vote Tracking** to prevent multiple votes in the same election
+- **Secure Data Storage** using Firebase Firestore
+- **Logout Functionality**
+- Responsive UI and navigation
+
+---
+
+## Technology Used
+- **Frontend:** React, Redux Toolkit
+- **Backend & Database:** Firebase Authentication, Firebase Firestore
+- **Routing:** React Router
+- **State Management:** Redux Toolkit (`createAsyncThunk`, `useSelector`, `useDispatch`)
+- **Styling:** CSS
+
+---
+
+## Demo Landing Page
+The platform includes the following pages:
+1. **Register Page** – User can create an account
+2. **Login Page** – User can log in with email and password
+3. **Profile Page** – User completes profile information
+4. **Dashboard** – Displays user info and list of elections
+5. **Vote Page** – User can select a candidate and submit vote
+
+Example screenshots (replace with actual images if available):
+- **Landing / Dashboard:** Displays welcome message and elections  
+- **Profile Page:** Form to enter name, age, address  
+- **Vote Page:** Candidate selection and vote submission  
+
+---
+
+## Contribution
+- **Ayush Bhan** – FS40_393401  
+  - Developed frontend using React  
+  - Implemented state management with Redux Toolkit  
+  - Integrated Firebase Authentication & Firestore  
+  - Built secure voting mechanism  
+  - Designed responsive pages (Register, Login, Profile, Dashboard, Vote)
+
+
+
+
